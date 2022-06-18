@@ -6,7 +6,7 @@ This sketch can be used to pause or resume recording video on your Google Pixel 
 
 # Video
 
-Video is available on [Twitter]().
+Video is available on [Twitter](https://twitter.com/cubic9com/status/1537970509526466560).
 
 # Requirements
 
