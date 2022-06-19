@@ -1,3 +1,5 @@
+English | [日本語](README_jp.md)
+
 # Overview
 
 A sketch for [M5Stack Core2](https://docs.m5stack.com/#/en/core/core2).
