@@ -5,7 +5,7 @@
 #define PIXEL4A_DELTA_Y -40
 
 #define GYRO_THRESHOLD 115
-
+#define INTERVAL_TO_IGNORE_GESTURE 1500
 
 BleMouse bleMouse;
 bool pointerOnButton = false;
@@ -56,7 +56,7 @@ void loop() {
     if (abs(gyroZ) > GYRO_THRESHOLD) {
       disp.printf("Clicking the button...\n");
       bleMouse.click();
-      delay(1500);
+      delay(INTERVAL_TO_IGNORE_GESTURE);
     }
   } else {
     disp.printf("Please pair your M5Stack Core2, as a BLE mouse,\n", gyroZ);
