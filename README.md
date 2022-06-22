@@ -4,7 +4,7 @@ English | [日本語](README_jp.md)
 
 A sketch for [M5Stack Core2](https://docs.m5stack.com/#/en/core/core2).
 
-This sketch can be used to pause or resume recording video on your Google Pixel phone by detecting raising your leg with the gyro sensor of the M5Stack Core2.
+When I take a video with Google Pixel phone, I often press the pause or resume button of the camera app to avoid video-editing on my computer afterwards. However, it is inconvenient because I have to use one hand to press these button. So, I developed a device to press these button by detecting raising my leg by the gyro sensor of the M5Stack Core2. As a matter of fact, I realized this device by making the Pixel recognize M5Stack as a BLE mouse.
 
 # Video
 
